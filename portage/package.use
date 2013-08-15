@@ -1,0 +1,22 @@
+dev-libs/libxml2 python
+sys-fs/udev hwdb
+virtual/udev hwdb
+media-video/ffmpeg rtmp mp3 faac
+dev-libs/libxml2 icu
+sys-libs/zlib minizip -static-libs
+app-admin/sudo offensive
+www-apps/wordpress -vhosts
+dev-lang/php mysql -apache2 fpm ftp sqlite postgres zip truetype xmlwriter xmlreader gd threads mysqli curl imap cgi
+net-firewall/ipset -modules
+media-gfx/imagemagick lzma xml -autotrace truetype tiff jpeg fontconfig raw jpeg2k corefonts png -svg
+net-irc/znc daemon sasl
+app-emulation/qemu curl qemu_softmmu_targets_i386 qemu_user_targets_arm qemu_user_targets_mips qemu_user_targets_mipsel sdl spice -static -static-softmmu -static-user usbredir vde virtfs xattr xfs qemu_user_targets_x86_64 tci
+media-libs/libsdl X
+dev-games/cegui opengl
+app-misc/hivex perl
+net-dns/bind dlz threads geoip caps
+dev-libs/openssl static_libs -static-libs
+net-misc/openvpn iproute2
+sys-apps/busybox -static
+app-admin/eselect-php fpm
+app-editors/vim python ruby

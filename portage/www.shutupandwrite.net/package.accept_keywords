@@ -1,0 +1,28 @@
+dev-db/mariadb
+virtual/mysql
+app-emulation/libguestfs
+app-emulation/libguestfs-appliance
+net-libs/nodejs ~amd64 **
+media-sound/teamspeak-server-bin
+net-analyzer/libnasl
+net-analyzer/nessus-plugins
+net-analyzer/nessus
+net-analyzer/nessus-core
+net-analyzer/nessus-libraries
+dev-lang/ruby -~amd64
+app-emulation/phpvirtualbox
+app-emulation/virtualbox
+app-emulation/virtualbox-additions
+app-emulation/virtualbox-modules
+app-emulation/virtualbox-extpack-oracle
+sys-boot/grub ~amd64 amd64
+app-admin/eselect
+dev-lang/php
+app-admin/eselect-php
+dev-ruby/bundler
+net-misc/cgminer
+sys-process/nmon
+app-backup/vzdump
+app-emulation/docker
+app-emulation/lxc
+dev-python/sphinxcontrib-httpdomain

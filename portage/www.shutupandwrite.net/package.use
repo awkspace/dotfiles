@@ -6,7 +6,7 @@ dev-libs/libxml2 icu
 sys-libs/zlib minizip -static-libs
 app-admin/sudo offensive
 www-apps/wordpress -vhosts
-dev-lang/php mysql -apache2 fpm ftp sqlite postgres zip truetype xmlwriter xmlreader gd threads mysqli curl imap cgi
+dev-lang/php mysql -apache2 fpm ftp sqlite postgres zip truetype xmlwriter xmlreader gd threads mysqli curl imap cgi soap
 net-firewall/ipset -modules
 media-gfx/imagemagick lzma xml -autotrace truetype tiff jpeg fontconfig raw jpeg2k corefonts png -svg
 net-irc/znc daemon sasl
@@ -20,3 +20,13 @@ net-misc/openvpn iproute2
 sys-apps/busybox -static
 app-admin/eselect-php fpm
 app-editors/vim python ruby
+dev-libs/icu -static-libs
+dev-lang/ruby ~
+app-emulation/virtualbox opengl headless vnc vboxwebsrv extensions python java -pax_kernel
+app-text/ghostscript-gpl cups
+app-emulation/phpvirtualbox ~
+app-emulation/virtualbox-modules -pax_kerenl -pax_kernel
+dev-ruby/bundler ruby20 ~
+app-emulation/libvirt virt-network
+media-video/vlc -qt4 run-as-root mp3 httpd lua xml rstp rtsp
+app-emulation/docker btrfs doc vim-syntax aufs

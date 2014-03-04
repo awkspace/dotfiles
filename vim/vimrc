@@ -1,6 +1,3 @@
-set background=dark
-highlight Comment ctermfg=blue
-
 set mouse=a
 
 filetype plugin indent on     " required!
@@ -12,7 +9,6 @@ set spellfile=~/spellfile.add
 autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 
 set nocompatible               " be iMproved
-filetype off                   " required!
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -27,7 +23,9 @@ Bundle 'https://github.com/scrooloose/nerdtree.git'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'sickill/vim-monokai'
 
+set t_Co=256
 colorscheme monokai
+highlight clear 
 
 " GUI-specific
 if has("gui_running")

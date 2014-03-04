@@ -9,6 +9,8 @@ autocmd BufNewFile,BufRead *.md setlocal spell spelllang=en_us
 set mousemodel=popup
 set spellfile=~/spellfile.add
 
+autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
+
 set nocompatible               " be iMproved
 filetype off                   " required!
 

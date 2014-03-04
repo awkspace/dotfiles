@@ -3,3 +3,5 @@
 [user]
 	name = awkisopen
 	email = awkisopen@shutupandwrite.net
+[push]
+	default = simple

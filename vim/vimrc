@@ -25,7 +25,7 @@ Bundle 'https://github.com/scrooloose/nerdtree.git'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'sickill/vim-monokai'
 
-colorscheme molokai
+colorscheme monokai
 
 " GUI-specific
 if has("gui_running")

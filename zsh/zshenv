@@ -1,0 +1,2 @@
+# Disable new user prompt
+zsh-newuser-install () {}

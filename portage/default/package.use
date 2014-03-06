@@ -1,0 +1,4 @@
+app-admin/sudo offensive
+dev-lang/php mysql -apache2 fpm ftp sqlite postgres zip truetype xmlwriter xmlreader gd threads mysqli curl imap cgi soap
+app-editors/vim python ruby
+dev-lang/ruby ~

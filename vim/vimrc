@@ -24,7 +24,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'sickill/vim-monokai'
 
 set t_Co=256
-colorscheme monokai
+silent! colorscheme monokai
 highlight clear 
 
 " GUI-specific

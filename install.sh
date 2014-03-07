@@ -2,7 +2,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # zsh setup
 if [[ $EUID -eq 0 ]] ; then
-  rm -rf /etc/zsh > /dev/null 2&>1
+  rm -rf /etc/zsh > /dev/null 2>&1
   ln -s ~/dotfiles/zsh /etc/zsh
 else
   curl -L https://github.com/awkisopen/oh-my-zsh/raw/master/tools/install.sh | zsh
